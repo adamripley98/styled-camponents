@@ -1,0 +1,13 @@
+{
+  "name": "styled-camponents",
+  "version": "1.0.0",
+  "description": "A set of reusable components",
+  "main": "index.js",
+  "repository": "git@github.com:ccabo1/styled-camponents.git",
+  "author": "Cameron Cabo <cameroncabo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.0",
+    "styled-components": "^4.0.3"
+  }
+}
