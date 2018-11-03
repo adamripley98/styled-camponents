@@ -1,3 +1,3 @@
 # styled-camponents
 
-Reusable `styled-components`
+A set of reusable `styled-components`
