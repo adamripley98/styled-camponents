@@ -15,7 +15,7 @@ export const Container = styled.div`
     padding: 0 8%;
   }
 
-  ${minWidht(LG)} {
+  ${minWidth(LG)} {
     padding: 0 16%;
   }
 `
@@ -24,7 +24,7 @@ export const Row = styled.div`
   display: flex;
   width: 100%;
 
-  ${maxWidth(sm)} {
+  ${maxWidth(SM)} {
     display: block;
   }
 `

@@ -85,13 +85,8 @@ const ModalWrapper = styled.div`
   background: ${WRAPPER_SHADE};
   z-index: ${Z_INDEX};
   animation-name: ${({ isNewlyMounted, show }) => {
-    if (isNewlyMounted) {
-      return '';
-    }
-    if (show) {
-      return fadeIn;
-    }
-
+    if (isNewlyMounted) return '';
+    if (show) return fadeIn;
     return fadeOut;
   }};
 
