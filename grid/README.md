@@ -2,9 +2,9 @@
 
 Components:
 
-* `Container`
-* `Row`
-* `Col`
+* `Container`: container with responsive padding for different screen sizes
+* `Row`: full width row
+* `Col`: columns which responsively fill rows, powered by flexbox
 
 Example(s):
 

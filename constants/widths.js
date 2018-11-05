@@ -9,3 +9,7 @@ export function minWidth(width) {
 export function maxWidth(width) {
   return `@media screen and (max-width: ${width})`
 }
+
+export function betweenWidths(w1, w2) {
+  return `@media screen and (min-width: ${w1}) and (max-width: ${w2})`
+}

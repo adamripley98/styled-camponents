@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 0 1rem;
 
   ${minWidth(SM)} {
-    padding: 0 4%;
+    padding: 0 1rem;
   }
 
   ${minWidth(MD)} {
